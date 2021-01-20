@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.startup">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_shopping_cart_2"
+        android:label="ShopVite"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".cart"/>
+        <activity android:name=".secondpage" />
+        <activity android:name=".help" />
+        <activity android:name=".ui.Payment"/>
+        <activity android:name=".thirdpage"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:label=""/>
+        <activity android:name=".login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".sign" />
+
+        <activity
+            android:name=".ui.sign"
+            android:label="@string/title_activity_sign_up"
+            tools:ignore="MissingClass" />
+        <activity
+            android:name=".ui.login"
+            android:label="@string/title_activity_login"
+            tools:ignore="MissingClass" />
+
+        <activity android:name=".CaptureAct"
+            android:screenOrientation="fullSensor"
+            android:stateNotNeeded="true"
+            android:windowSoftInputMode="stateAlwaysHidden">
+
+        </activity>
+
+    </application>
+
+    <meta-data
+        android:name="com.google.android.gms.vision.DEPENDENCIES"
+        android:value="barcode" />
+
+</manifest>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="30dp"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/colorAccent"
+            />
+
+        <EditText
+            android:id="@+id/username2"
+            android:layout_width="348dp"
+            android:layout_height="58dp"
+            android:layout_marginHorizontal="30dp"
+            android:background="#DAD5D5"
+            android:hint="Username"
+            android:textColor="#050505" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="30dp"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textColor="@color/colorAccent"
+            />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="348dp"
+            android:layout_height="58dp"
+            android:layout_marginHorizontal="30dp"
+            android:background="#DAD5D5"
+            android:hint="Email"
+            android:textColor="#050505" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="30dp"
+            android:layout_height="wrap_content"
+            android:text="Phone number"
+            android:textColor="@color/colorAccent"
+            />
+
+        <EditText
+            android:id="@+id/phoneno"
+            android:layout_width="348dp"
+            android:layout_height="58dp"
+            android:layout_marginHorizontal="30dp"
+            android:background="#DAD5D5"
+            android:hint="Phone no"
+            android:textColor="#050505" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="30dp"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textColor="@color/colorAccent"
+            />
+
+        <EditText
+            android:id="@+id/editTextTextPassword3"
+            android:layout_width="348dp"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="30dp"
+            android:background="#DAD5D5"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="20dp"
+            android:textColor="#050505" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="30dp"
+            android:layout_height="wrap_content"
+            android:text="Confirm Password"
+            android:textColor="@color/colorAccent"
+            />
+
+        <EditText
+            android:id="@+id/editTextTextPassword4"
+            android:layout_width="349dp"
+            android:layout_height="58dp"
+            android:layout_marginHorizontal="30dp"
+            android:background="#DAD5D5"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="20dp"
+            android:textColor="#050505" />
+
+        <Button
+            android:id="@+id/b_signup"
+            android:layout_marginTop="15dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="SignUp"
+            android:layout_marginLeft="55dp"
+            android:background="@drawable/bg"
+            />
+
+
+
+
+</LinearLayout>
